@@ -7,7 +7,7 @@ try:
 except ImportError:
     import urllib
 
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.test import TestCase, RequestFactory
 from django.views.generic import View
 

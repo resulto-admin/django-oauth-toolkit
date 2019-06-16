@@ -1,6 +1,6 @@
 from __future__ import absolute_import, unicode_literals
 
-from django.core.urlresolvers import reverse_lazy
+from django.urls import reverse_lazy
 from django.views.generic import ListView, DeleteView
 
 from braces.views import LoginRequiredMixin

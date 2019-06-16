@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import mock
 
 from django.test import TestCase, RequestFactory
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 from ..compat import urlparse, parse_qs, urlencode, get_user_model
 from ..models import get_application_model
